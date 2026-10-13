@@ -1,0 +1,203 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Welcome back | STACKLY</title>
+    <meta
+      content="Welcome back — STACKLY digital growth and client workspace."
+      name="description"
+    />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/responsive.css" rel="stylesheet" />
+    <link href="assets/css/portal.css" rel="stylesheet" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <!-- START SECTION 01: Header and navigation -->
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a aria-label="STACKLY home" class="brand" href="index.html"
+          ><img
+            alt="STACKLY"
+            height="50"
+            src="assets/images/logos/stackly.webp"
+            width="173" /></a
+        ><button
+          aria-controls="navigation"
+          aria-expanded="false"
+          aria-label="Open navigation"
+          class="menu-toggle"
+        >
+          <span></span><span></span>
+        </button>
+<nav aria-label="Main navigation" id="navigation">
+          <a href="index.html">Home</a><a href="services.html">Services</a
+          ><a href="about.html">About Us</a
+          ><a href="case-studies.html">Case Studies</a
+          ><a href="blog.html">Blog</a><a href="contact.html">Contact</a>
+          <a class="nav-signin" href="signin.html">Sign in</a>
+        </nav>
+      </div>
+    </header>
+    <!-- END SECTION 01: Header and navigation -->
+
+    <main id="main">
+      <!-- START SECTION 02: A clearer view of the work. -->
+      <section class="section auth-section">
+        <div class="container auth-layout">
+          <div class="auth-story">
+            <span class="eyebrow">STACKLY WORKSPACE</span>
+            <h1>A clearer view of the work.</h1>
+            <p>
+              Sign in to pick up your priorities, review decisions and move the
+              next task forward.
+            </p>
+            <div class="auth-role-note">
+              <h3>Client workspace</h3>
+              <p>
+                Your project brief, campaign approvals, requests and meeting
+                notes.
+              </p>
+              <h3>Team workspace</h3>
+              <p>
+                Your delivery queue, quality checks, weekly focus and handover
+                notes.
+              </p>
+            </div>
+            <img
+              alt="Collaborative project planning"
+              class="auth-image"
+              height="533"
+              src="assets/images/sections/strategy-session-800.webp"
+              width="800"
+            />
+          </div>
+          <div class="card auth-card">
+            <span class="eyebrow">SIGN IN</span>
+            <h2>Welcome back</h2>
+            <form data-mode="login" id="auth-form">
+              <label for="email"
+                >Email address<input
+                  autocomplete="email"
+                  id="email"
+                  maxlength="254"
+                  name="email"
+                  placeholder="Enter your email address"
+                  required=""
+                  type="email" /></label
+              ><label for="password"
+                >Password<input
+                  autocomplete="current-password"
+                  id="password"
+                  maxlength="128"
+                  minlength="1"
+                  name="password"
+                  placeholder="Enter your password"
+                  required=""
+                  type="password" /></label
+              ><button
+                aria-pressed="false"
+                class="password-toggle"
+                id="show-password"
+                type="button"
+              >
+                Show password</button
+              ><label for="role"
+                >Role<select id="role" name="role" required="">
+                  <option value="" disabled selected hidden>Select your role</option>
+                  <option value="client">Client</option>
+                  <option value="team">Team member</option>
+                </select></label
+              >
+              <p class="fine">
+                Choose the dashboard you want to open.
+              </p>
+              <p
+                aria-live="polite"
+                class="form-status"
+                id="auth-status"
+                role="status"
+              ></p>
+              <button class="button" type="submit">Sign in to dashboard</button>
+              <p class="fine">
+                Client opens the Client dashboard. Team member opens the Team
+                dashboard.
+              </p>
+            </form>
+            <p class="auth-switch">
+              New to STACKLY?
+              <a href="create-account.html">Create an account</a>
+            </p>
+            <p class="fine" hidden="" id="server-help">
+              Start the included Python server and open http://localhost:8000 to
+              use accounts.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- END SECTION 02: A clearer view of the work. -->
+    </main>
+
+    <!-- START SECTION 03: Footer -->
+    <footer>
+      <div class="container footer-grid">
+        <div>
+          <a class="brand" href="index.html"
+            ><img
+              alt="STACKLY"
+              height="50"
+              src="assets/images/logos/stackly.webp"
+              width="173"
+          /></a>
+          <p>
+            We help ambitious brands improve search visibility, attract
+            qualified traffic and turn digital opportunities into measurable
+            growth.
+          </p>
+          <div class="footer-socials" aria-label="Social media">
+            <a href="404.html?social=facebook" aria-label="Facebook"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M14 8h4V3h-4.5C8.8 3 8 6.5 8 9v3H5v5h3v7h5v-7h4l1-5h-5V9c0-.7.3-1 1-1z" xmlns="http://www.w3.org/2000/svg" /></svg></a>
+            <a href="404.html?social=instagram" aria-label="Instagram"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 3a2 2 0 0 0-2 2v10c0 1.1.9 2 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm5 3a4 4 0 1 1 0 8 4 4 0 0 1 0-8zm0 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm4.8-3.6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" xmlns="http://www.w3.org/2000/svg" /></svg></a>
+            <a href="404.html?social=x" aria-label="X"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M3 3h5.2l4.7 6.3L18.4 3H21l-6.9 8.1L22 21h-5.2l-5.1-6.8L5.6 21H3l7.5-8.7zm4 2 10.8 14H20L9.2 5z" xmlns="http://www.w3.org/2000/svg" /></svg></a>
+            <a href="404.html?social=linkedin" aria-label="LinkedIn"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 3a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM2 9h4v13H2zm7 0h4v1.8c1-1.5 2.5-2.2 4.3-2.2 3.7 0 4.7 2.4 4.7 6.2V22h-4v-6.4c0-1.8 0-3.8-2.4-3.8S13 13.7 13 15.5V22H9z" xmlns="http://www.w3.org/2000/svg" /></svg></a>
+          </div>
+        </div>
+        <div>
+          <h3>Explore</h3>
+          <a class="footer-icon-link" href="index.html"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M2 11.5L12 3l10 8.5-1.5 1.8L19 12v9h-5v-6h-4v6H5v-9l-1.5 1.3z" xmlns="http://www.w3.org/2000/svg" /></svg><span>Home</span></a>
+          <a class="footer-icon-link" href="services.html"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M3 3h8v8H3zm10 0h8v8h-8zM3 13h8v8H3zm10 0h8v8h-8z" xmlns="http://www.w3.org/2000/svg" /></svg><span>Services</span></a>
+          <a class="footer-icon-link" href="about.html"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-1 5h2v2h-2zm0 4h2v6h2v2h-6v-2h2z" xmlns="http://www.w3.org/2000/svg" /></svg><span>About Us</span></a>
+          <a class="footer-icon-link" href="case-studies.html"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M8 3h8l2 3h4v15H2V6h4zm1 3h6l-1-1h-4zm-3 5v6h3v-6zm5 2v4h3v-4zm5-4v8h3V9z" xmlns="http://www.w3.org/2000/svg" /></svg><span>Case Studies</span></a>
+          <a class="footer-icon-link" href="blog.html"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 2h13l3 3v17H4zm11 2v3h3zM7 10h10V8H7zm0 4h10v-2H7zm0 4h7v-2H7z" xmlns="http://www.w3.org/2000/svg" /></svg><span>Blog</span></a>
+          <a class="footer-icon-link" href="contact.html"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M3 4h18v14H8l-5 4zm2 2v1l7 5 7-5V6zm14 10V9.5l-7 5-7-5V16z" xmlns="http://www.w3.org/2000/svg" /></svg><span>Contact</span></a>
+        </div>
+        <div>
+          <h3>Expertise</h3>
+          <a class="footer-icon-link" href="404.html"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M14.7 6.3a6 6 0 0 0-7.4 7.4L2 19l3 3 5.3-5.3a6 6 0 0 0 7.4-7.4l-3.2 3.2-3-3z" xmlns="http://www.w3.org/2000/svg" /></svg><span>Technical SEO</span></a>
+          <a class="footer-icon-link" href="404.html"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M12 2a8 8 0 0 0-8 8c0 5.8 8 12 8 12s8-6.2 8-12a8 8 0 0 0-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" xmlns="http://www.w3.org/2000/svg" /></svg><span>Local SEO</span></a>
+          <a class="footer-icon-link" href="404.html"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M2 3h3l2 11h10l3-8H7l.4 2H17l-1 4H8.7L6.8 3zM9 16a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" xmlns="http://www.w3.org/2000/svg" /></svg><span>eCommerce SEO</span></a>
+          <a class="footer-icon-link" href="404.html"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 3h16v18H4zm3 4v2h10V7zm0 4v2h10v-2zm0 4v2h7v-2z" xmlns="http://www.w3.org/2000/svg" /></svg><span>Content Marketing</span></a>
+          <a class="footer-icon-link" href="404.html"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M3 9h4l10-5v16L7 15H3zm4 6.5l3 1.5v4H7zM19 8c2 1 3 2.3 3 4s-1 3-3 4z" xmlns="http://www.w3.org/2000/svg" /></svg><span>PPC Advertising</span></a>
+        </div>
+        <div>
+          <h3>Let’s connect</h3>
+          <div class="footer-contact-list">
+            <a class="footer-contact-item"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M3 5h18v14H3zm2 2v.5l7 5.2 7-5.2V7zm14 10V10l-7 5.2L5 10v7z" xmlns="http://www.w3.org/2000/svg" /></svg><span>info@thestackly.com</span></a>
+            <a class="footer-contact-item"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M6.6 2h3.1l1.5 5-2 1.5c1.2 2.5 2.8 4.1 5.3 5.3l1.5-2 5 1.5v3.1c0 2.5-2 4.6-4.5 4.6C9 21 3 15 3 7.5 3 4.5 4.6 2 6.6 2z" xmlns="http://www.w3.org/2000/svg" /></svg><span>+91 70107 92745</span></a>
+            <div class="footer-contact-item"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M12 2a8 8 0 0 0-8 8c0 5.8 8 12 8 12s8-6.2 8-12a8 8 0 0 0-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" xmlns="http://www.w3.org/2000/svg" /></svg><span>Salem, Tamil Nadu, India<small>Contact the company to arrange a visit</small></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2026 STACKLY. All rights reserved.</span
+        ><a href="404.html">Demo website · Example campaigns and team</a>
+      </div>
+    </footer>
+    <!-- END SECTION 03: Footer -->
+
+    <script defer="" src="assets/js/main.js"></script>
+    <script defer="" src="assets/js/auth.js"></script>
+  </body>
+</html>

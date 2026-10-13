@@ -1,0 +1,51 @@
+@keyframes menu-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+}
+.floating {
+  animation: float 6s ease-in-out infinite;
+}
+.keyword-float {
+  animation-delay: -3s;
+}
+.js-reveal .reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.65s,
+    transform 0.65s;
+}
+.js-reveal .reveal.visible {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *:before,
+  *:after {
+    animation: none !important;
+    transition: none !important;
+  }
+  .js-reveal .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}

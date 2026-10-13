@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Page not found | STACKLY</title>
+    <meta content="The requested STACKLY page could not be found." name="description" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/responsive.css" rel="stylesheet" />
+    <link href="assets/css/portal.css" rel="stylesheet" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <main id="main">
+      <section class="section not-found-section">
+        <div class="container not-found-card">
+          <span class="not-found-code">404</span>
+          <span class="eyebrow">PAGE NOT FOUND</span>
+          <h1>This link is not available yet.</h1>
+          <p>Go back to your previous section or return to the homepage.</p>
+          <div class="button-row">
+            <button class="button secondary" id="go-back" type="button">Back</button>
+            <a class="button" href="index.html">Home</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script>
+      document.getElementById("go-back").addEventListener("click", () => {
+        if (window.history.length > 1) {
+          window.history.back();
+        } else {
+          window.location.assign("index.html");
+        }
+      });
+    </script>
+  </body>
+</html>

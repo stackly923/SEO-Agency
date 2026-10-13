@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="email" viewBox="0 0 24 24"><path d="M3 5h18v14H3zm2 2v.5l7 5.2 7-5.2V7zm14 10V10l-7 5.2L5 10v7z"/></symbol>
+  <symbol id="phone" viewBox="0 0 24 24"><path d="M6.6 2h3.1l1.5 5-2 1.5c1.2 2.5 2.8 4.1 5.3 5.3l1.5-2 5 1.5v3.1c0 2.5-2 4.6-4.5 4.6C9 21 3 15 3 7.5 3 4.5 4.6 2 6.6 2z"/></symbol>
+  <symbol id="location" viewBox="0 0 24 24"><path d="M12 2a8 8 0 0 0-8 8c0 5.8 8 12 8 12s8-6.2 8-12a8 8 0 0 0-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></symbol>
+</svg>
